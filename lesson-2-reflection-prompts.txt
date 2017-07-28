@@ -5,6 +5,7 @@ Git initializes the metadata which it requires for tracking the changes in the d
 
 
 
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
@@ -12,16 +13,36 @@ Staging area defines which files we have added for getting tracked by Git. Using
 
 
 
+
+
+
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+
+We can use git --staged command to check which changes are going to get committed.
+
+
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+Branches will be helpful if more than 1 team is working on the project.
+If a branch is completed we can add it to the main branch or we can discard it.
+
+
+
 
 How do the diagrams help you visualize the branch structure?
 
-What is the result of merging two branches together? Why do we represent it in
+
+
+
+
+What is the result of merging two branches together? Why do we represent it in 
 the diagram the way we do?
+
+-Two branches get merged into one and the commits are sorted on the basis of timestamps
+
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
